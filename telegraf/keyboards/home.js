@@ -3,18 +3,19 @@ module.exports = {
         [ 
             {
                 text: '📝 Онлайн заявка', 
+                web_app: { url: 'https://google.com/' }
             }
         ], 
         [ 
             {
                 text: '📃 Список продукции компании',
-                web_app: { url: '' }
+                web_app: { url: 'https://google.com/' }
             }
         ],
         [
             {
                 text: 'наличии',
-                web_app: { url: '' }
+                web_app: { url: 'https://google.com/' }
             }
         ],
         [
@@ -25,7 +26,7 @@ module.exports = {
         [
             {
                 text: '📞 Контакты',
-                web_app: { url: '' }
+                web_app: { url: 'https://google.com/' }
             }
         ],
         [ '🇷🇺 Сменить язык' ],
@@ -33,19 +34,20 @@ module.exports = {
     en: [
         [ 
             {
-                text: '📝 Онлайн заявка', 
+                text: '📝 Онлайн заявка',
+                web_app:{url :'https://google.com/'} 
             }
         ], 
         [ 
             {
                 text: '📃 Список продукции компании',
-                web_app: { url: '' }
+                web_app: { url: 'https://google.com/' }
             }
         ],
         [
             {
                 text: 'наличии',
-                web_app: { url: '' }
+                web_app: { url: 'https://google.com/' }
             }
         ],
         [
@@ -56,7 +58,7 @@ module.exports = {
         [
             {
                 text: '📞 Контакты',
-                web_app: { url: '' }
+                web_app: { url: 'https://google.com/' }
             }
         ],
         [ '🇷🇺 Сменить язык' ],
@@ -65,18 +67,19 @@ module.exports = {
         [ 
             {
                 text: '📝 Онлайн заявка', 
+                web_app: { url: 'https://google.com/' }
             }
         ], 
         [ 
             {
                 text: '📃 Список продукции компании',
-                web_app: { url: '' }
+                web_app: { url: 'https://google.com/' }
             }
         ],
         [
             {
                 text: 'наличии',
-                web_app: { url: '' }
+                web_app: { url: 'https://google.com/' }
             }
         ],
         [
@@ -87,7 +90,7 @@ module.exports = {
         [
             {
                 text: '📞 Контакты',
-                web_app: { url: '' }
+                web_app: { url: 'https://google.com/' }
             }
         ],
         [ '🇷🇺 Сменить язык' ],

@@ -16,10 +16,15 @@ const RequestScene = require('./telegraf/scenes/request')
 
 
 // Actions
+// const taskAction = require('./telegraf/actions/task')
+// const oldTaskAction = require('./telegraf/actions/old_task')
+// const statusAction = require('./telegraf/actions/status')
+
 
 
 // Commands
 const startCommand = require('./telegraf/commands/start')
+const restartCommand = require('./telegraf/commands/start')
 
 
 const homeScene = new HomeScene()
@@ -38,6 +43,7 @@ const stages = new Stage([
 bot.use(session())
 bot.use(stages.middleware())
 bot.command('start', startCommand)
+bot.command('restart', restartCommand)
 // bot.command('quit', quitCommand)
 // bot.action(/^task:/, taskAction)
 // bot.action(/^old_task:/, oldTaskAction)
